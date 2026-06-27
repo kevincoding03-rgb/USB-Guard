@@ -1,4 +1,4 @@
-# USB-Guard Enhanced v2.0
+# USB-Guard v2.0
 
 ## 简介 / Introduction
 
