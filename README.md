@@ -36,7 +36,7 @@ USB-Guard Enhanced is a PowerShell script designed specifically for Windows 11 H
 ```
 
 ### 2. 执行脚本 / Execute Script
-```powershell
+
 .\USB-Guard.ps1
 
 ### 3. 菜单选项 / Menu Options
