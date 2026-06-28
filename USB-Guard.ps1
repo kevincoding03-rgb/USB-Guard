@@ -1,6 +1,6 @@
 # ============================================================
-#  USB-Guard Enhanced v2.0
-#  Win11 Home/Canary Edition
+#  USB-Guard v2.0
+#  Win11 Home/Pro Edition
 # ============================================================
 
 $Script:Config = @{
@@ -277,8 +277,8 @@ function Get-USBStatus {
 function Show-Menu {
     Clear-Host
     Write-Host "====================================" -ForegroundColor Cyan
-    Write-Host "   USB-Guard Enhanced v2.0" -ForegroundColor Cyan
-    Write-Host "   For Win11 Home/Canary Edition" -ForegroundColor Cyan
+    Write-Host "   USB-Guard v2.0" -ForegroundColor Cyan
+    Write-Host "   For Win11 Home/Pro Edition" -ForegroundColor Cyan
     Write-Host "====================================" -ForegroundColor Cyan
     Write-Host ""
     Write-Host "  [0] View Status"
@@ -286,7 +286,7 @@ function Show-Menu {
     Write-Host ""
     Write-Host "  --- Lock Methods (choose one) ---"
     Write-Host "  [2] Policy Lock (Pro Edition)"
-    Write-Host "  [3] Driver Lock (Home Edition) *"
+    Write-Host "  [3] Driver Lock (Home Edition)"
     Write-Host "  [4] Double Lock (Most Secure)"
     Write-Host ""
     Write-Host "  [5] Unlock (requires password)"
