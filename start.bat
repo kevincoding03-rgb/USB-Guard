@@ -5,5 +5,5 @@ if %errorlevel% neq 0 (
     exit /b
 )
 cd /d "%~dp0"
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0USB-Guard-Enhanced.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0USB-Guard.ps1"
 pause
